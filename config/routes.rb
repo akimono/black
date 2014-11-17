@@ -30,7 +30,10 @@ Black::Application.routes.draw do
   #     resources :comments, :sales
   #     resource :seller
   #   end
-
+get "staticpages/index"
+match '/contact' => 'staticpages#contact'
+match '/events' => 'staticpages#events'
+match '/index' => 'staticpages#index'
   # Sample resource route with more complex sub-resources
   #   resources :products do
   #     resources :comments

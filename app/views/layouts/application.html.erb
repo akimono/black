@@ -7,8 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+	<center> <h1> Black and Gold Cafe </h1>
+		Hours: Monday - Thursday 7 Am to 8pm, Friday - Saturday 7 AM to Midnight, Sunday 11 to 8 pm <br><br>
+<%= link_to "index", index_path %> , <%= link_to "contact us", contact_path %> ,  <%= link_to "events", events_path %></center>
 <%= yield %>
-
+<br> <br>
+<center>
+	Black and Gold Cafe <br> 414 Williamston Road <br> Anderson SC 29627 <br> Tel: 864 XXX XXXX
+</center>
 </body>
 </html>

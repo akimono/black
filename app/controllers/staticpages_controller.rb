@@ -5,5 +5,4 @@ class StaticpagesController < ApplicationController
 	end
 	def events
 	end
-
 end
